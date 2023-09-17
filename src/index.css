@@ -163,7 +163,6 @@ input, textarea {
 
 .item {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
-    /*padding: 20px 48px 20px 24px;*/
     padding: 1.25em 2em 1.25em 1.5em;
     cursor: pointer;
     border-top: 4px solid #fff;
