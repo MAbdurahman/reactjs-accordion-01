@@ -92,6 +92,7 @@ img {
 body {
     font-family: var(--ff-font-primary);
     color: #343a40;
+    font-weight: 500;
     line-height: 1;
 }
 
@@ -126,7 +127,7 @@ body {
 .title,
 .icon {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .content-box {
@@ -159,6 +160,9 @@ body {
 /*=============================================
           utility classes
 ================================================*/
+.u-text-center {
+    text-align: center;
+}
 /*If you want the image to scale both up and down on responsiveness,
 set CSS width property to 100% and height to auto*/
 .u-img-responsive-up-and-down {
@@ -185,7 +189,6 @@ to 100%, max-width property to a pixel value of choice, and height to auto*/
 .u-img-responsive {
     vertical-align: middle;
 }
-
 
 
 .u-wrapper {
@@ -231,14 +234,16 @@ to 100%, max-width property to a pixel value of choice, and height to auto*/
     width: 200px;
 }
 
-@media screen and (min-width: 20em) { // 320px
-.u-fluid-box {
-    width: calc(200px + 300 * ((100vw - 320px) / 960));
-}
+/* 20em * 16 = 320 */
+@media screen and (min-width: 20em) {
+    .u-fluid-box {
+        width: calc(200px + 300 * ((100vw - 320px) / 960));
+    }
 }
 
-@media screen and (min-width: 80em) { //1200px
-.u-fluid-box {
-    width: 500px;
-}
+/* 80em * 16 = 1280px */
+@media screen and (min-width: 80em) {
+    .u-fluid-box {
+        width: 500px;
+    }
 }

@@ -1,11 +1,14 @@
 import React from 'react';
+import Accordion from "../components/Accordion";
+import {data} from '../data';
 
 export default function App() {
 
+    console.log(data)
     return (
-        <div>
-            <h1>App</h1>
-        </div>
+        <main className="u-wrapper">
+            <Accordion data={data} />
+        </main>
 
     );
 };
