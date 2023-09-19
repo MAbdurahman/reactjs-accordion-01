@@ -10,3 +10,4 @@ First install node_modules folder
 Then to start app in browser at http://localhost:3000
 ### `npm start or yarn start`
 
+![reactjs-accordion-01](https://github.com/MAbdurahman/reactjs-accordion-01/assets/20928980/3e20e430-1acf-49db-8933-1eca5f37411d)
